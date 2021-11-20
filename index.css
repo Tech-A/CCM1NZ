@@ -9,15 +9,36 @@ body, html {
     }
 
 /* text */
-h1 {
+h1, b {
     text-align: center;
     color:rgb(55, 68, 37);
     font-size: 75px;
-    padding:100px;
+    padding: 100px 15px;
+    padding-bottom: 15px;
     font-family: 'Times New Roman', Times, serif;
   }
 
+button {
+    background-color: transparent;
+      outline:white;
+      border-radius: 2px;
+      outline: 12px;
+      width: 200px;
+      height: 70px;
+      display: inline-block;
+      padding: 10px 25px;
+      color: black;
+      text-align: center;
+      font-size: 22px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      cursor: pointer;
+      transition-duration: 0.4s;
+}
 
+button:hover {
+    background-color: #555;
+    color: white;
+  } 
   /* Navigation bar */
     
   nav {
@@ -57,6 +78,7 @@ nav ul li a:hover{
   width:100%;
   height:100vh;
   background-size:cover;
+  text-align: center;
 }
 
 span {
