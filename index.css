@@ -1,7 +1,7 @@
 /* body */
 body {
     background-color: rgb(214, 208, 181);
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body, html {
@@ -13,31 +13,31 @@ h1, b {
     text-align: center;
     color:rgb(55, 68, 37);
     font-size: 75px;
-    padding: 100px 15px;
-    padding-bottom: 15px;
+    padding: 150px 15px;
+    padding-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
   }
 
 button {
-    background-color: transparent;
-      outline:white;
-      border-radius: 2px;
-      outline: 12px;
-      width: 200px;
-      height: 70px;
-      display: inline-block;
-      padding: 10px 25px;
-      color: black;
-      text-align: center;
-      font-size: 22px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      cursor: pointer;
-      transition-duration: 0.4s;
-}
+    
+        background-color: rgb(214, 208, 181);
+        border:white;
+        outline: 12px;
+        width: 200px;
+        height: 70px;
+        display: inline-block;
+        padding: 10px 25px;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        cursor: pointer;
+        transition-duration: 0.4s;
+      }
 
 button:hover {
     background-color: #555;
-    color: white;
+    color: rgb(214, 208, 181);
   } 
   /* Navigation bar */
     
@@ -69,14 +69,15 @@ nav ul li a{
   text-transform: uppercase;
 }
 nav ul li a:hover{
-  background: rgba(255, 255, 255, 0.644);
-  color:rgba(0, 0, 0, 0.932);
-  border-radius: 5px;
+
+  color:rgb(214, 208, 181);
+  border-radius: 3px;
   transition-duration: 0.4s;
 } 
 .navsection{
   width:100%;
   height:100vh;
+  background-image:linear-gradient(rgba(70, 63, 63, 0.5), rgba(71, 63, 63, 0.5)),url("https://images.unsplash.com/photo-1551140676-c5a87bdb7074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-size:cover;
   text-align: center;
 }
