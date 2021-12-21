@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(214, 208, 181);
+    font-family:Verdana,  Tahoma, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+  .row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.column1 {
+    flex-basis: 50%;
+}
+.column2 {
+    flex-basis: 50%;
+    background-image: linear-gradient(rgba(44, 39, 39, 0.5), rgba(46, 41, 41, 0.5)),url("https://images.unsplash.com/photo-1551140676-c5a87bdb7074?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
