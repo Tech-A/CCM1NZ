@@ -1,6 +1,6 @@
 /* body */
 body {
-    background-color: rgb(214, 208, 181);
+    background-color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -11,7 +11,9 @@ body, html {
     .mainsection {
         text-align: center;
     }
-
+.title{
+    padding: 60px 20px;
+}
     h1{
         text-align: center;
         color:rgb(48, 54, 38);
@@ -21,7 +23,6 @@ body, html {
       }
     h2 {
       text-align: center;
-      font-size:40px;
         cursor:pointer;
         color:rgb(73, 80, 62);
    
@@ -34,7 +35,10 @@ body, html {
         padding-bottom: 30px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
        }
-    
+       .w3-logo{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 50px;
+      }
        * {
         margin: 0;
         padding: 0;
@@ -70,8 +74,11 @@ font-family: Arial, Helvetica, sans-serif;
         margin: 0 -16px;
     }
 .menu a {
-color:white;
+color:rgb(34, 30, 30);
 margin: 0 16px;
 padding:8px 16px;
 
+}
+.home {
+    color:rgb(197, 199, 178);
 }
