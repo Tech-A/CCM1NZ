@@ -70,7 +70,7 @@ a {
 h1{
     text-align: center;
     color:white;
-    padding: 150px 15px;
+    padding: 120px 15px;
     padding-bottom: 15px;
     font-weight: 40px;
   }
@@ -83,10 +83,12 @@ h1{
    font-size: 50px;
  }
   .w3-cc,b {
-font-family: serif;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-size:65px;
   }
-
+.w3-cc2 {
+  font-size: 35px;
+}
   h3 {
     text-align: center;
     color:white;
@@ -95,8 +97,9 @@ font-size:65px;
     letter-spacing: 1px;
    }
 p {
-  font-size: 12px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
+padding: 5px;
 }
 
 button {
@@ -141,33 +144,6 @@ button:hover {
   text-align: center;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -30px;
-  padding: 16px;
-  color: #888;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  position: absolute;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-  color: white;
-}
 
 /* The dot/bullet/indicator container */
 .dot-container {
