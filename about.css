@@ -28,11 +28,11 @@ body, html {
    
     }
       h3 {
-        text-align: center;
+        text-align: left;
         letter-spacing: 2px;
-        color:white;
+        color:black;
         font-size:20px;
-        padding-bottom: 30px;
+        padding-left: 80px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
        }
        .w3-logo{
@@ -50,6 +50,12 @@ text-decoration: none;
 font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
     }
+p {
+    padding: 10px 80px;
+    text-align: left;
+}
+
+
     nav{
         position:absolute;
         top:0;
@@ -83,6 +89,9 @@ padding:8px 16px;
     color:rgb(197, 199, 178);
 }
 
+.menu a:hover {
+    color: rgb(197, 199, 178);
+  }
 .container {
     position: relative;
     text-align: center;
@@ -90,6 +99,7 @@ padding:8px 16px;
     
   }
   
+
 .centered {
     position: absolute;
     top: 50%;
@@ -107,3 +117,5 @@ height:500px;
 width:100%;
 border-radius: 12px;
   } 
+
+
