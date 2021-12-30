@@ -107,7 +107,7 @@ button {
   padding: 1rem 3rem;
   font-size: 1rem;
   border: 2px solid white;
-     color: white;
+  color: white;
   background: transparent;
   cursor: pointer;
   border-radius: 50px;
@@ -166,7 +166,7 @@ button:hover {
 }
 
 /* Add a background color to the active dot/circle */
-.active, .dot:hover {
+.active {
   background-color: #717171;
 }
 
@@ -177,3 +177,17 @@ padding:20px}
 
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
+
+
+@media screen and (max-width: 768px) {
+  .w3-cc,b, h1 {
+    font-size: 40px;
+    padding-top: 70px;
+  }
+  .w3-cc2 {
+    font-size: 20px;
+  }
+  .w3-logo{
+    font-size: 30px;
+  }
+}
