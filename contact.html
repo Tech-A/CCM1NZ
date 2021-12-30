@@ -8,11 +8,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="contact.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body>
       <nav>
           <div class="container">
-    <h2 class="w3-logo">1NZed</h2>
+    <h2 class="w3-logo" onclick="window.location.href='index.html';">1NZed</h2>
 <div class="menu">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
@@ -38,10 +40,61 @@
     </div>
     <br>
     <br>
-<p>Want to take the next step to visa assisance to Aotearoa?</p>
-      
-    
 
+
+<div class="row-container">
+
+      <h3 style="font-size: 40px;">Take the next step to visa assisance to Aotearoa.</h3>
+<br>
+      <div class="row">
+
+        <div class="column">
+            <i class="fa fa-user" style="font-size:80px;"></i>
+          
+          <h4><br>Level 1, Quad 7 Building 
+                <br>
+            6 Leonard Isitt Drive Auckland 2022 </h4>
+        </div>
+        <div class="column">
+            <i class="fa fa-phone" style="font-size:80px;"></i>
+           
+            <h4> <br>Phone: (+64) 0220 526 236 </h4>
+        </div>
+        <div class="column"> 
+            <i class="material-icons" style="font-size:80px;">email</i>
+            <h4><br>Email: radicesm@gmail.com</h4>
+        </div>
+
+      </div>
+   
+</div>
+
+
+      <h3>You can also fill out this form</h3>
+
+<div class="contact-container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Name">
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Email"> 
+    
+    <label for="subject">Phone</label>
+    <textarea id="subject" name="subject" placeholder="Phone" ></textarea>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+   
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
 
 

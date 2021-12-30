@@ -31,7 +31,7 @@ body, html {
         text-align: center;
         letter-spacing: 2px;
         color:black;
-        font-size:20px;
+        font-size:30px;
         padding-left: 80px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
        }
@@ -54,8 +54,12 @@ p {
     padding: 10px 300px;
     text-align: center;
 }
-
-
+.w3-p {
+  font-size: 20px;
+}
+.w3-h3 {
+  font-size: 30px;
+}
     nav{
         position:absolute;
         top:0;
@@ -116,6 +120,7 @@ padding:8px 16px;
 height:500px; 
 width:100%;
 border-radius: 12px;
+opacity: 0.9;
   } 
 
 
@@ -137,7 +142,7 @@ border-radius: 12px;
   padding: 0rem 2rem;
   }
   .column-left h3 {
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
     font-size: 1.75rem;
       color:rgb(48, 54, 38);
       padding: 2px 50px;
@@ -160,27 +165,7 @@ border-radius: 12px;
     border-radius: 12px;
   }
 
-  /* responsiveness */
-  @media screen and (max-width: 768px) {
-    .hero-container{
-      grid-template-columns: 1fr;
-    }
-    h3 {
-      padding-left: 20px;
-    }
-    p {
-      padding: 10px 20px;
-      text-align: left;
-    }
-    img {
-      width:1500px;
-      height:500px
-    }
-    .w3-logo{
-      font-size: 30px;
-    }
-  }
-
+  
   /* Slideshow container */
 .slideshow-container {
   position: relative;
@@ -232,3 +217,31 @@ padding:20px}
 
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
+
+
+
+
+/* responsiveness */
+  @media screen and (max-width: 800px) {
+    .hero-container{
+      grid-template-columns: 1fr;
+      height: 100vh;
+    }
+    h3 {
+      padding-left: 20px;
+
+    }
+    p {
+      padding: 10px 30px;
+      text-align: left;
+    }
+    img {
+      width:1500px;
+      height:500px;
+      border-radius: 0;
+    }
+    .w3-logo{
+      font-size: 30px;
+    }
+  
+  }
