@@ -30,7 +30,7 @@ body, html {
       h3 {
         text-align: center;
         letter-spacing: 2px;
-        color:white;
+        color:rgb(73, 80, 62);
         font-size:20px;
         padding-bottom: 30px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -66,6 +66,9 @@ font-family: Arial, Helvetica, sans-serif;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        position: relative;
+    text-align: center;
+    color: white;
     }
     .menu {
         display:flex;
@@ -83,12 +86,6 @@ padding:8px 16px;
     color:rgb(197, 199, 178);
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-    
-  }
   
 .centered {
     position: absolute;
@@ -173,6 +170,22 @@ opacity: 0.9;
     right: 35px;
     }
 
+    .column {
+      float: left;
+      width: 25%;
+      padding: 50px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+.visaburger {
+  background-color: rgb(168, 191, 209);
+}
 
 
    /* responsiveness */
@@ -192,4 +205,68 @@ img {
   .topnav {
     display: block;
   }
+  .column{
+    width: 100%;
+      
+      }
 }
+
+
+
+
+.w3-p {
+  font-size: 20px;
+  padding: 30px 80px;
+}
+
+
+.feecontainer{
+  height: 450px;
+}
+
+.processflow{
+  height: 900px;
+  background-color: rgb(202, 202, 159);
+}
+
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 60px;
+  text-align: center;
+}
+
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;
+font-size: 20px;
+padding:20px}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+

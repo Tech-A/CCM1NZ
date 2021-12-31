@@ -67,7 +67,7 @@
 
 <div class="row-container">
 
-      <h3 style="font-size: 40px;">Take the next step to visa assisance to Aotearoa.</h3>
+      <h3 style="font-size: 40px;">Get in touch with us!</h3>
 <br>
       <div class="row">
 
@@ -93,18 +93,32 @@
 </div>
 
 
-      <h3>You can also fill out the form below to book an initial consultation</h3>
 
 <div class="contact-container">
-  <form action="/action_page.php">
+
+<h3>Enquiry form</h3>
+
+
+  <form action="malito:abbeypmz@gmail.com"
+  method=”POST”
+
+
+enctype=”multipart/form-data”
+
+
+name=”EmailForm”>
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Name">
 
     <label for="lname">Email</label>
     <input type="text" id="lname" name="lastname" placeholder="Email"> 
     
+
     <label for="subject">Phone</label>
-    <textarea id="subject" name="subject" placeholder="Phone" ></textarea>
+    <input type="text" id="subject" name="subject" placeholder="Phone"> 
+
+    <label for="subject">Query</label>
+    <textarea id="subject" name="subject" placeholder="Tell us about your situation" ></textarea>
 
     <label for="country">Country</label>
     <select id="country" name="country">
@@ -117,10 +131,34 @@
    <br>
 
     <input type="submit" value="Submit">
+    <br><br>
   </form>
 </div>
 
 
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
 
 
 
