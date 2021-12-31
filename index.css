@@ -127,7 +127,7 @@ button:hover {
 .topnav {
   display: none;
 }
-  span {
+ .menubtn {
     float:right;
     font-size:30px;
     padding-right: 10px;

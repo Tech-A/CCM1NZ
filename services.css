@@ -110,7 +110,7 @@ opacity: 0.9;
 .topnav {
   display: none;
 }
-  span {
+  .menubtn {
     float:right;
     font-size:30px;
     padding-right: 10px;
