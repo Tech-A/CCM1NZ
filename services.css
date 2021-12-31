@@ -185,6 +185,7 @@ opacity: 0.9;
 
 .visaburger {
   background-color: rgb(168, 191, 209);
+  padding: 10px 30px;
 }
 
 
@@ -227,6 +228,7 @@ img {
 .processflow{
   height: 900px;
   background-color: rgb(202, 202, 159);
+  padding: 10px 80px;
 }
 
 
