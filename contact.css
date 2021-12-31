@@ -189,7 +189,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: lightslategray;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -198,13 +198,14 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: slategray;
 }
 
 .contact-container {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 20px 30px;
+  width: 80%;
+  margin: auto;
 }
 
 * {
@@ -247,5 +248,9 @@ input[type=submit]:hover {
 
 .menu {
   display: none;
+}
+.contact-container {
+  width: 100%;
+  padding: 20px 10px;
 }
 }
