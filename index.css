@@ -16,7 +16,8 @@ p {
   font-size: 20px;
 }
 .w3-p2{
-padding: 12px;
+padding: 8px;
+font-size:18px;
 }
 .w3-h3 {
   font-size: 50px;
@@ -29,7 +30,7 @@ padding: 12px;
   flex-direction: row; */
   display: grid;
     grid-template-columns: 1fr 2fr;
-    height: 100vh;
+    height: 110vh;
     padding:4rem calc((100vw - 1300px) /2);
     background:rgb(197, 199, 178);
 }
@@ -50,7 +51,7 @@ padding: 12px;
   }
 .filler-image {
   width:500px;
-  height:650px; 
+  height:700px; 
   align-self: flex-start; 
   border-radius: 12px;
 }
@@ -186,7 +187,7 @@ b {
 }
  
 i, .w3-p6 {
-  font-size: 40px;
+  font-size: 25px;
 }
 .w3-cc2 {
   font-size: 35px;

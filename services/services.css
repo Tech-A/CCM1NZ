@@ -1,211 +1,236 @@
 /* body */
 body {
-    background-color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body, html {
-    height: 100%;
-    }
-
-    .mainsection {
-        text-align: center;
-    }
-.title{
-    padding: 60px 20px;
+body,
+html {
+  height: 100%;
 }
-    h1{
-        text-align: center;
-        color:rgb(48, 54, 38);
-        font-size: 65px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-transform:uppercase;
-      }
-    h2 {
-      text-align: center;
-        cursor:pointer;
-        color:rgb(73, 80, 62);
-   
-    }
-      h3 {
-        text-align: center;
-        letter-spacing: 2px;
-        color:rgb(73, 80, 62);
-        font-size:20px;
-        padding-bottom: 30px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       }
-       .w3-logo {
-        width: 150px;
-        height: 120px;
-        padding-top: 20px;
-      }
-       * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    a {
-text-decoration: none;
-font-size: 20px;
-font-family: Arial, Helvetica, sans-serif;
-    }
-    nav{
-        position:absolute;
-        top:0;
-       left:0;
-       right:0;
-       z-index: 99;
-       padding:16px 32px;
 
 
-    }
-    .container {
-        max-width: 1280px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-    text-align: center;
-    color: white;
-    }
-    .menu {
-        display:flex;
-        flex: 1 1 0%;
-        justify-content: flex-end;
-        margin: 0 -16px;
-    }
+.title {
+  padding: 60px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(48, 54, 38);
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: left;
+  cursor: pointer;
+  color: rgb(73, 80, 62);
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 2px;
+  color: rgb(73, 80, 62);
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.breakdownh3 {
+  padding-left: 50px;
+}
+.w3-p {
+  font-size: 20px;
+  padding: 10px ;
+  text-align: left;
+}
+.w3-h3 {
+  color: rgb(73, 80, 62);
+  text-align: left;
+  padding: 0;
+}
+
+.w3-logo {
+  width: 150px;
+  height: 120px;
+  padding-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding: 16px 32px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  margin: 0 -16px;
+}
+
 .menu a {
-color:rgb(34, 30, 30);
-margin: 0 16px;
-padding:8px 16px;
+  color: rgb(34, 30, 30);
+  margin: 0 16px;
+  padding: 8px 16px;
 
 }
+
 .home {
-    color:rgb(197, 199, 178);
+  color: rgb(197, 199, 178);
 }
 
-  
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color:white;
-    font-size: 65px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-transform:uppercase;
-  }
 
-  img {
-height:500px; 
-width:100%;
-border-radius: 12px;
-opacity: 0.9;
-  } 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+img {
+  height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  opacity: 0.9;
+}
 
 /* menu */
 .topnav {
   display: none;
 }
-  .menubtn {
-    float:right;
-    font-size:30px;
-    padding-right: 10px;
-    padding-bottom: 15px;
-    cursor:pointer;
-    color:rgb(73, 80, 62);
-    }
-    
-    .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-    }
-    
-    .overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    }
-    
-    .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-    }
-    
-    .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-    }
-    
-    .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    }
-    
-    .overlay a {
-    font-size: 20px;
-    }
-    
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
 
-    .column {
-      float: left;
-      width: 25%;
-      padding: 50px;
-    }
-    
-    /* Clearfix (clear floats) */
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
+.menubtn {
+  float: right;
+  font-size: 30px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  color: rgb(73, 80, 62);
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay a {
+  font-size: 20px;
+}
+
+.overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .visaburger {
   background-color: rgb(168, 191, 209);
   padding: 10px 30px;
+  height: 110vh;
 }
 
 
+.servicesintro {
+  padding: 80px;
+}
+
+.column-p {
+  padding: 0px;
+}
+
+
+
+
+
+
+.feecontainer {
+  height: 350px;
+  padding: 80px;
   
-
-
-
-
-.w3-p {
-  font-size: 20px;
-  padding: 30px 80px;
 }
 
-
-.feecontainer{
-  height: 450px;
-}
-
-.processflow{
+.processflow {
   height: 900px;
   background-color: rgb(202, 202, 159);
   padding: 10px 80px;
@@ -222,9 +247,9 @@ opacity: 0.9;
 
 /* The dot/bullet/indicator container */
 .dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #ddd;
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
 }
 
 /* The dots/bullets/indicators */
@@ -245,24 +270,32 @@ opacity: 0.9;
 }
 
 /* Add an italic font style to all quotes */
-q {font-style: italic;
-font-size: 20px;
-padding:20px}
+q {
+  font-style: italic;
+  font-size: 20px;
+  padding: 20px
+}
 
 /* Add a blue color to the author */
-.author {color: cornflowerblue;}
+.author {
+  color: cornflowerblue;
+}
 
 
- /* responsiveness */
-   @media screen and (max-width: 800px){
-   .w3-logo{
+/* responsiveness */
+@media screen and (max-width: 800px) {
+  .w3-logo {
     font-size: 30px;
   }
-img {
-      width:1500px;
-      height:500px;
-      border-radius: 0;
-    }
+.visaburger {
+  height: 240vh;
+}
+  img {
+    width: 1500px;
+    height: 500px;
+    border-radius: 0;
+  }
+
   .menu {
     display: none;
   }
@@ -270,8 +303,9 @@ img {
   .topnav {
     display: block;
   }
-  .column{
+
+  .column {
     width: 100%;
-      
-      }
+
+  }
 }
