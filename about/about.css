@@ -1,0 +1,412 @@
+/* body */
+body {
+  background-color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+/* header */
+
+
+.title {
+  padding: 60px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(48, 54, 38);
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  cursor: pointer;
+  color: rgb(73, 80, 62);
+
+}
+
+h3 {
+  text-align: left;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 30px;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.w3-logo {
+  width: 150px;
+  height: 120px;
+  padding-top: 20px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding: 16px 32px;
+
+
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container2 {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: flex-end;
+  margin: 0 -16px;
+}
+.home {
+  color: rgb(197, 199, 178);
+}
+.menu a {
+  color: rgb(34, 30, 30);
+  margin: 0 16px;
+  padding: 8px 16px;
+
+}
+.menu a:hover {
+  color: rgb(197, 199, 178);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+img {
+  height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  opacity: 0.9;
+}
+
+button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 200px;
+  height: 70px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  color: rgb(81, 88, 68);
+  background: white;
+  border: none;
+}
+
+/* advisor section */
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 4rem calc((100vw - 1300px) /2);
+  /* display: flex;
+  flex-direction: row; */
+  height: 95vh;
+
+}
+.w3-p {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.w3-h3 {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+  letter-spacing: 2px;
+  color: rgb(48, 54, 38);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.w3-p4 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: black;
+  padding: 0rem 2rem;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0rem 2rem;
+}
+
+.hero-image {
+  width: 170px;
+  height: 150px;
+}
+
+.info-container {
+  background: rgb(197, 199, 178);
+  padding: 90px;
+}
+
+/* menu */
+.topnav {
+  display: none;
+}
+
+.menubtn {
+  float: right;
+  font-size: 30px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  color: rgb(73, 80, 62);
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay a {
+  font-size: 20px;
+}
+
+.overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+.t {
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(81, 88, 68);
+  padding: 32px 0;
+  padding-bottom: 0;
+}
+
+.tp {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+}
+.author {
+  text-align: center;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 60px;
+  text-align: center;
+}
+
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {
+  font-size: 20px;
+  padding: 20px
+}
+
+.prev {
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  border: 2px solid grey;
+  background: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+.next {
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  border: 2px solid grey;
+  background: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+  align-self: flex-end;
+}
+.buttons {
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 35px;
+  padding-right: 40px;
+}
+
+
+
+/* responsiveness */
+@media screen and (max-width: 800px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    height: 240vh;
+  }
+  .hero-image {
+    align-self: left;
+    padding-left: 15px;
+    width: 190px;
+  }
+  h3 {
+    padding-left: 20px;
+  }
+
+  p {
+    padding: 10px 30px;
+    text-align: left;
+  }
+
+  img {
+    width: 1500px;
+    height: 500px;
+    border-radius: 0;
+  }
+
+  .w3-logo {
+    font-size: 30px;
+  }
+
+  .topnav {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+}

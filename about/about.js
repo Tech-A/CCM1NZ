@@ -15,9 +15,8 @@
 //   }
 //   slides[slideIndex-1].style.display = "block";  
 //   dots[slideIndex-1].className += " active";
-//   setTimeout(showSlides, 15000); // Change image every 15 seconds
+//   setTimeout(showSlides, 5000); // Change image every 5 seconds
 // }
-
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -44,11 +43,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-
-/* menu */
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-  }
-  function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-  }
