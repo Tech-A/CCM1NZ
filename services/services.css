@@ -190,28 +190,7 @@ opacity: 0.9;
 }
 
 
-   /* responsiveness */
-   @media screen and (max-width: 800px){
-   .w3-logo{
-    font-size: 30px;
-  }
-img {
-      width:1500px;
-      height:500px;
-      border-radius: 0;
-    }
-  .menu {
-    display: none;
-  }
-
-  .topnav {
-    display: block;
-  }
-  .column{
-    width: 100%;
-      
-      }
-}
+  
 
 
 
@@ -273,3 +252,26 @@ padding:20px}
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
 
+
+ /* responsiveness */
+   @media screen and (max-width: 800px){
+   .w3-logo{
+    font-size: 30px;
+  }
+img {
+      width:1500px;
+      height:500px;
+      border-radius: 0;
+    }
+  .menu {
+    display: none;
+  }
+
+  .topnav {
+    display: block;
+  }
+  .column{
+    width: 100%;
+      
+      }
+}
