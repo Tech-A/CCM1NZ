@@ -35,9 +35,10 @@ body, html {
         padding-bottom: 30px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
        }
-       .w3-logo{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 50px;
+       .w3-logo {
+        width: 150px;
+        height: 120px;
+        padding-top: 20px;
       }
        * {
         margin: 0;
