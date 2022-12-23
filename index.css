@@ -43,9 +43,10 @@ padding: 12px;
   }
   .column-right {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 0rem 2rem;
+    align-items: flex-end;
   }
 .filler-image {
   width:500px;
@@ -182,9 +183,11 @@ h2 {
 b {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 65px;
-
 }
-
+ 
+i, .w3-p6 {
+  font-size: 40px;
+}
 .w3-cc2 {
   font-size: 35px;
 }
