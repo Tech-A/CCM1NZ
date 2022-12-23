@@ -59,39 +59,7 @@ font-size:18px;
 .w3-text {
   align-content: flex-end;
 }
-.prev {
-  font-size: 15px;
-  color: grey;
-  padding: 10px;
-  border: 2px solid grey;
-  background: white;
-  cursor: pointer;
-  width: 100px;
-  height: 50px;
-  display: inline-block;
-  text-align: center;
-  transition-duration: 0.4s;
-}
-.next {
-  font-size: 15px;
-  color: grey;
-  padding: 10px;
-  border: 2px solid grey;
-  background: white;
-  cursor: pointer;
-  width: 100px;
-  height: 50px;
-  display: inline-block;
-  text-align: center;
-  transition-duration: 0.4s;
-  align-self: flex-end;
-}
-.buttons {
-  flex-direction: row;
-  text-align: center;
-  padding-bottom: 35px;
-  padding-right: 40px;
-}
+
 /* Navigation bar */
 * {
   box-sizing: border-box;
@@ -187,7 +155,7 @@ b {
 }
  
 i, .w3-p6 {
-  font-size: 25px;
+  font-size: 23px;
 }
 .w3-cc2 {
   font-size: 35px;
@@ -356,7 +324,39 @@ q {
   padding: 20px
 }
 
-
+.prev {
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  border: 2px solid grey;
+  background: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+.next {
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  border: 2px solid grey;
+  background: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+  align-self: flex-end;
+}
+.buttons {
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 35px;
+  padding-right: 40px;
+}
 
 @media screen and (max-width: 800px) {
 

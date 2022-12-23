@@ -39,6 +39,8 @@ h3 {
 }
 .breakdownh3 {
   padding-left: 50px;
+  font-weight: bold;
+  font-size: 32px;
 }
 .w3-p {
   font-size: 20px;
@@ -206,7 +208,7 @@ img {
 
 .visaburger {
   background-color: rgb(168, 191, 209);
-  padding: 10px 30px;
+  padding: 20px 30px;
   height: 110vh;
 }
 
@@ -236,6 +238,84 @@ img {
   padding: 10px 80px;
 }
 
+
+button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 50px;
+  width: 200px;
+  height: 70px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  color: rgb(81, 88, 68);
+  background: white;
+  border: none;
+}
+
+.prev {
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  border: 2px solid grey;
+  background: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+}
+.next {
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  border: 2px solid grey;
+  background: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+  align-self: flex-end;
+}
+.buttons {
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 35px;
+  padding-right: 40px;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+.t {
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(81, 88, 68);
+  padding: 32px 0;
+  padding-bottom: 0;
+}
+
+.tp {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+}
+.author {
+  text-align: center;
+}
 
 /* Slides */
 .mySlides {
@@ -271,14 +351,8 @@ img {
 
 /* Add an italic font style to all quotes */
 q {
-  font-style: italic;
   font-size: 20px;
   padding: 20px
-}
-
-/* Add a blue color to the author */
-.author {
-  color: cornflowerblue;
 }
 
 

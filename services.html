@@ -146,7 +146,6 @@
       
    
 <div class="feecontainer">
-<!-- <h2>Fee structure</h2> -->
 <p class= "w3-p">Please note that these fees are a guide only and may vary depending on the complexity of your immigration matter. We offer a free 15 to 30-minute initial assessment to provide a detailed quote for our services based on your specific immigration needs.</p>
 <p class= "w3-p">If you would like to know more about our fees for immigration services or to book a free initial assessment, please contact us today. Our team of licensed immigration advisers will be happy to assist you with any questions you may have
 </p>
@@ -174,60 +173,73 @@
 <br><br><br> -->
 
 <div class="slideshow-container">
-    <br>
-    <h1 class="t"> Testimonials</h1>
+  <br>
+  <h1 class="t"> Testimonials</h1>
+  <p class="tp">What our customers say about us</p>
+  
+      <div class="mySlides">
+        <q>"The service was very professional and straightforward. Conrad would provide me with a checklist of all the needed documents and he would just update me if he needed some supplementary documents and requirements. He would also suggest an option in case the process does not work.
+          The overall experience was great and fulfilling considering my husband having past medical conditions and he was able to pull through and had our residency visa approved!"</q>
+          <br>
+          <br>
+        <p class="author">MARIE S WITH HUSBAND AND SON – VISAS APPLIED FOR: WORK VISAS, STUDENT VISAS, SMC AND 2021 RESIDENCE VISAS</p>
+      </div>
+      
+      <div class="mySlides">
+        <q>"Conrad was very efficient, and professional. He was invested in us and our application and we felt that he cared."</q>
+        <p class="author">JEVASHA G WITH PARTNER – VISA APPLIED FOR: SMC AND 2021 RESIDENCE VISAS</p>
+      </div>
+      
+      <div class="mySlides">
+        <q>"Conrad is very accommodating and easily understand every situation of the applicant. He is widely known for his expertise to handle difficult applications and our case is a little bit complicated but he explained it very clearly to the Immigration Officer. We got our Residence Visa because of him. He is accommodating and most importantly he doesn't charge very high."</q>
+        <p class="author">AURELIO D WITH PARTNER – VISA APPLIED FOR: 2021 RESIDENCE VISA AND ASSISTED WITH PPI LETTER FROM INZ</p>
+      </div>
+  
+      <div class="buttons">
+       
+        <button class="prev" onclick="plusSlides(-1)">Previous</button>
+  
     
-        <div class="mySlides">
-          <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</q>
-          <p class="author">- Name</p>
-        </div>
-        
-        <div class="mySlides">
-          <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</q>
-          <p class="author">- Name</p>
-        </div>
-        
-        <div class="mySlides">
-          <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</q>
-          <p class="author">- Name</p>
-        </div>
-        <div class="mySlides">
-            <q>Lorem ipsum dolor sit amet</q>
-            <p class="author">- Name</p>
-          </div>
-        
-       <br>
-        </div>
-        
-        <div class="dot-container">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-          <span class="dot" onclick="currentSlide(4)"></span> 
-<br>
-        </div>
+        <button class="next" onclick="plusSlides(1)">Next</button>
+      
+      </div>
+  
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+     
+      </div>
+  </div>
+  
 
 <script>
-    var slideIndex = 0;
-showSlides();
+    let slideIndex = 1;
+showSlides(slideIndex);
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
-
 </script>
 
 
