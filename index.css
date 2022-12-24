@@ -369,6 +369,7 @@ q {
   .container3 {
     grid-template-columns: 1fr;
     height: 200vh;
+    padding: 20px;
   }
   .filler-image {
     width: 420px;
