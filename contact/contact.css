@@ -201,7 +201,29 @@ img {
   clear: both;
 }
 
+.socials {
+  text-align: right;
+  
+}
+.fa {
+  padding: 20px;
+  font-size: 80px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
 
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  font-size: 80px;
+}
 
 /* responsiveness */
 @media screen and (max-width: 800px) {

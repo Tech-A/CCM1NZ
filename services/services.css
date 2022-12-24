@@ -46,6 +46,7 @@ h3 {
   font-size: 20px;
   padding: 10px ;
   text-align: left;
+  padding-bottom: 1px;
 }
 .w3-h3 {
   color: rgb(73, 80, 62);
@@ -222,7 +223,11 @@ img {
 }
 
 
-
+li {
+  font-size: 20px;
+  padding: 10px ;
+  text-align: left;
+}
 
 
 
