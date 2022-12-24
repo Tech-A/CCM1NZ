@@ -375,7 +375,7 @@ q {
 @media screen and (max-width: 800px) {
   .hero-container {
     grid-template-columns: 1fr;
-    height: 240vh;
+    height: 250vh;
   }
   .hero-image {
     align-self: left;

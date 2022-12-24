@@ -383,7 +383,9 @@ q {
     padding-left: 20px;
 
   }
-
+  q{
+    font-size: 18px;
+  }
   p {
     padding: 10px 30px;
     text-align: left;

@@ -367,14 +367,19 @@ q {
     font-size: 30px;
   }
 .visaburger {
-  height: 240vh;
+  height: 270vh;
+}
+.feecontainer {
+  height: 90vh;
 }
   img {
     width: 1500px;
     height: 500px;
     border-radius: 0;
   }
-
+  q{
+    font-size: 18px;
+  }
   .menu {
     display: none;
   }
