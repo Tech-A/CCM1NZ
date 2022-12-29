@@ -433,5 +433,7 @@ q {
   .menu {
     display: none;
   }
-
+  .mySlides {
+   padding: 30px;
+  }
 }
