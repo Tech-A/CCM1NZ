@@ -26,7 +26,7 @@ html {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -380,6 +380,7 @@ q {
 
 /* RESPONSIVENESS */
 @media screen and (max-width: 500px) {
+  .container, 
   .container2 {
     width: 100%;
     margin: 0 0;
