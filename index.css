@@ -369,6 +369,10 @@ q {
     font-size: 30px;
     padding-top: 60px;
   }
+  button {
+  width: 100px;
+  height: 45px;
+  }
   .container3 {
     grid-template-columns: 1fr;
     height: 200vh;
