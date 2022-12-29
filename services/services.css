@@ -344,9 +344,8 @@ button:hover {
   background-color: #717171;
 }
 
-q {
-  font-size: 20px;
-  padding: 20px
+q,i {
+  font-size: 23px;
 }
 
 .prev {
