@@ -1,4 +1,7 @@
-/* body */
+/* HERE IS WHERE YOU STYLE THE WEBPAGE */
+
+
+/* BODY */
 body {
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -9,43 +12,6 @@ html {
   height: 100%;
 }
 
-.mainsection {
-  text-align: center;
-}
-
-.title {
-  padding: 60px 20px;
-}
-
-h1 {
-  text-align: center;
-  color: rgb(48, 54, 38);
-  font-size: 65px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
-}
-
-h2 {
-  text-align: center;
-  cursor: pointer;
-  color: rgb(73, 80, 62);
-
-}
-
-h3 {
-  text-align: center;
-  letter-spacing: 2px;
-  color: rgb(73, 80, 62);
-  font-size: 20px;
-  padding-bottom: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.w3-logo {
-  width: 150px;
-  height: 120px;
-  padding-top: 20px;
-}
 * {
   margin: 0;
   padding: 0;
@@ -53,25 +19,10 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  padding: 16px 32px;
-
-
-}
-
+/* NAV */
 .container {
-  max-width: 1280px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -79,6 +30,12 @@ nav {
   position: relative;
   text-align: center;
   color: white;
+}
+
+.w3-logo {
+  width: 150px;
+  height: 120px;
+  padding-top: 20px;
 }
 
 .menu {
@@ -99,27 +56,23 @@ nav {
   color: rgb(197, 199, 178);
 }
 
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-.centered {
+nav {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  font-size: 65px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding: 16px 32px;
 }
 
-img {
-  height: 500px;
-  width: 100%;
-  border-radius: 12px;
-  opacity: 0.9;
-}
 
-/* menu */
+/* MENU */
 .topnav {
   display: none;
 }
@@ -185,64 +138,122 @@ img {
   right: 35px;
 }
 
-/* Create three equal columns that floats next to each other */
+
+
+/* HEADER SECTION */
+.mainsection {
+  text-align: center;
+}
+img {
+  height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  opacity: 0.9;
+}
+.w3-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(48, 54, 38);
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+
+/* CONTACTS SECTION */
+.row-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  cursor: pointer;
+  color: rgb(73, 80, 62);
+
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 2px;
+  color: rgb(73, 80, 62);
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
 .column {
   float: left;
   width: 33.33%;
   padding: 10px;
   height: 250px;
-  /* Should be removed. Only for demonstration */
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* FORM SECTION */
+.w3-p {
+  font-size: 25px;
+}
+.link {
+  font-size: 25px; color: rgb(32, 56, 24);
+}
+.link:hover{
+  color: burlywood;
+}
+
+.h32{
+  font-size: 40px;
+}
+
+/* SOCIALS SECTION */
 .socials {
   text-align: right;
-  
+
 }
 .fa {
-  padding: 20px;
-  font-size: 80px;
-  width: 50px;
-  height: 50px;
+  padding: 35px;
+  font-size: 200px;
+  width: 80px;
+  height: 80px;
   text-align: center;
+  align-content: center;
   text-decoration: none;
 
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
 
+.fa-facebook:hover {
+  opacity: 0.7;
+}
 .fa-facebook {
   background: #3B5998;
   color: white;
-  font-size: 80px;
+  font-size: 200px;
 }
 
-/* responsiveness */
+
+
+
+/* RESPONSIVENESS */
 @media screen and (max-width: 800px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-
-  img {
-    width: 1500px;
-    height: 500px;
-    border-radius: 0;
-  }
-
-  .w3-logo {
-    font-size: 30px;
-  }
-
-  .topnav {
+   .topnav {
     display: block;
   }
 
@@ -250,12 +261,55 @@ img {
     display: none;
   }
 
-  .contact-container {
+.column {
     width: 100%;
-    padding: 20px 30px;
+    display: block;
+  }
+  .container {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  img {
+    width: 100%;
+    height: 350px;
+    border-radius: 0;
+    padding-top: 10px;
+  }
+
+  .w3-logo {
+    width: 120px;
+    height: 100px;
+  }
+
+  .row-container {
+    width: 100%;
+    padding: 20px 20px;
+    height: fit-content;
+  }
+  .linkdiv {
+    height: fit-content;
+    width: 100%;
+  }
+  .h32 {
+    font-size: 30px;
+     
   }
 }
-
+i,
+.fa-phone,
+.fa-user,
+.fa,
+.material-icons
+{
+  align-self: center;
+  text-align: center;
+  padding: 0;
+}
+.fa-facebook {
+  padding: 35px;
+}
 /*
 
   /* form 
