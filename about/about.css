@@ -399,7 +399,7 @@ q {
   }
   .hero-container {
     grid-template-columns: 1fr;
-    height: 250vh;
+    height: 250%;
   }
 
   .hero-image {
@@ -410,6 +410,8 @@ q {
 
   .column-right {
     padding-top: 30px;
+
+
   }
   h3 {
     padding-left: 25px;
@@ -419,10 +421,6 @@ q {
     padding: 10px 30px;
     text-align: left;
   }
-
- 
-
-  
 
   .topnav {
     display: block;
