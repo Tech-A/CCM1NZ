@@ -230,7 +230,7 @@ h3 {
 .visaburger {
   background-color: rgb(168, 191, 209);
   padding: 20px 30px;
-  height: 110vh;
+  height: fit-content;
 }
 
 .column {
@@ -247,6 +247,7 @@ h3 {
 
 .column-p {
   padding: 0px;
+  font-size: 20px;
 }
 
 
@@ -426,7 +427,7 @@ q {
 
   q,
   i {
-    font-size: 20px;
+    font-size: 18px;
   }
 
 
