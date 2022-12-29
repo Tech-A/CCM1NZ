@@ -389,6 +389,9 @@ q {
     font-size: 30px;
     padding-top: 20px;
   }
+  .w3-h3 {
+    font-size: 40px;
+  }
 
   button {
     width: 200px;
@@ -402,7 +405,7 @@ q {
   .container3 {
     grid-template-columns: 1fr;
     height: fit-content;
-    padding: 20px;
+    padding: 15px;
   }
 
   .mySlides {
