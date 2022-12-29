@@ -428,6 +428,9 @@ q {
     margin: 0 0;
 
   }
+.ccontainer, .living-container {
+  padding-top: 15px;
+}
 
   .ccontainer,
   .visa-container,
@@ -436,7 +439,8 @@ q {
    {
     /* grid-template-columns: 1fr; */
     height: fit-content;
-    padding: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
   }
 
   .w3-title,
