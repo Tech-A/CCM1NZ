@@ -358,10 +358,10 @@ q {
   padding-right: 40px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
 
   .hamburger {
-    height:3500px;
+    height:auto;
   }
   .w3-cc,
   b,
