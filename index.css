@@ -373,6 +373,7 @@ q {
   width: 200px;
   height: 45px;
   font-size: 7px;
+  padding: 0;
   text-align: center;
   align-content: center;
   }
