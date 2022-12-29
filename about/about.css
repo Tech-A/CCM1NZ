@@ -380,6 +380,14 @@ q {
 
 /* RESPONSIVENESS */
 @media screen and (max-width: 800px) {
+   .topnav {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+  
   .container, 
   .container2 {
     width: 100%;
@@ -393,10 +401,12 @@ q {
     border-radius: 0;
     padding-top: 10px;
   }
+
   .w3-logo {
     width: 120px;
     height: 100px;
   }
+
   .hero-container {
     grid-template-columns: 1fr;
     height: fit-content;
@@ -413,6 +423,7 @@ q {
     height: fit-content;
 
   }
+  
   h3 {
     padding-left: 25px;
   }
@@ -426,13 +437,7 @@ q {
     text-align: left;
   }
 
-  .topnav {
-    display: block;
-  }
-
-  .menu {
-    display: none;
-  }
+ 
   .mySlides {
    padding: 30px;
   }

@@ -400,6 +400,10 @@ q {
     padding: 20px;
   }
 
+  .mySlides {
+    padding: 30px;
+   }
+
   .filler-image {
     /* width: 90%;
     height: 70%; */
