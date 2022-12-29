@@ -1,4 +1,7 @@
-/* body */
+/* HERE IS WHERE YOU STYLE THE WEBPAGE */
+
+
+/* BODY */
 body {
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -9,57 +12,6 @@ html {
   height: 100%;
 }
 
-
-.title {
-  padding: 60px 20px;
-}
-
-h1 {
-  text-align: center;
-  color: rgb(48, 54, 38);
-  font-size: 65px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
-}
-
-h2 {
-  text-align: left;
-  cursor: pointer;
-  color: rgb(73, 80, 62);
-  padding: 10px;
-}
-
-h3 {
-  text-align: center;
-  letter-spacing: 2px;
-  color: rgb(73, 80, 62);
-  font-size: 20px;
-  padding-bottom: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.breakdownh3 {
-  padding-left: 50px;
-  font-weight: bold;
-  font-size: 32px;
-}
-.w3-p {
-  font-size: 20px;
-  padding: 10px ;
-  text-align: left;
-  padding-bottom: 1px;
-}
-.w3-h3 {
-  color: rgb(73, 80, 62);
-  text-align: left;
-  padding: 0;
-}
-
-.w3-logo {
-  width: 150px;
-  height: 120px;
-  padding-top: 20px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -67,12 +19,9 @@ h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
+
+/* NAV */
 nav {
   position: absolute;
   top: 0;
@@ -82,12 +31,10 @@ nav {
   padding: 16px 32px;
 }
 
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.w3-logo {
+  width: 150px;
+  height: 120px;
+  padding-top: 20px;
 }
 
 .menu {
@@ -108,27 +55,14 @@ nav {
   color: rgb(197, 199, 178);
 }
 
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  font-size: 65px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-img {
-  height: 500px;
-  width: 100%;
-  border-radius: 12px;
-  opacity: 0.9;
-}
 
-/* menu */
+/* MENU */
 .topnav {
   display: none;
 }
@@ -194,17 +128,103 @@ img {
   right: 35px;
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 50px;
+
+
+
+/* HEADER SECTION */
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+h1 {
+  text-align: center;
+  color: rgb(48, 54, 38);
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+.w3-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+/* .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+} */
+
+img {
+  height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  opacity: 0.9;
+}
+
+
+
+
+/* SERVICES INTRO SECTION */
+.servicesintro {
+  padding: 80px;
+}
+
+h2 {
+  text-align: left;
+  cursor: pointer;
+  color: rgb(73, 80, 62);
+  padding: 10px;
+}
+
+.w3-p {
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+  padding-bottom: 1px;
+}
+
+
+h3 {
+  text-align: center;
+  letter-spacing: 2px;
+  color: rgb(73, 80, 62);
+  font-size: 20px;
+  padding-bottom: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/* COST BREAKDOWN SECTION */
+.breakdownh3 {
+  padding-left: 50px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.w3-h3 {
+  color: rgb(73, 80, 62);
+  text-align: left;
+  padding: 0;
 }
 
 .visaburger {
@@ -213,9 +233,16 @@ img {
   height: 110vh;
 }
 
+.column {
+  float: left;
+  width: 50%;
+  padding: 50px;
+}
 
-.servicesintro {
-  padding: 80px;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .column-p {
@@ -223,27 +250,23 @@ img {
 }
 
 
-li {
-  font-size: 20px;
-  padding: 10px ;
-  text-align: left;
-}
 
 
-
+/* FEES SECTION */
 .feecontainer {
   height: 350px;
   padding: 80px;
-  
+
 }
 
-.processflow {
+/* .processflow {
   height: 900px;
   background-color: rgb(202, 202, 159);
   padding: 10px 80px;
-}
+} */
 
 
+/* BUTTONS */
 button {
   padding: 1rem 3rem;
   font-size: 1rem;
@@ -265,41 +288,11 @@ button:hover {
   border: none;
 }
 
-.prev {
-  font-size: 15px;
-  color: grey;
-  padding: 10px;
-  border: 2px solid grey;
-  background: white;
-  cursor: pointer;
-  width: 100px;
-  height: 50px;
-  display: inline-block;
-  text-align: center;
-  transition-duration: 0.4s;
-}
-.next {
-  font-size: 15px;
-  color: grey;
-  padding: 10px;
-  border: 2px solid grey;
-  background: white;
-  cursor: pointer;
-  width: 100px;
-  height: 50px;
-  display: inline-block;
-  text-align: center;
-  transition-duration: 0.4s;
-  align-self: flex-end;
-}
-.buttons {
-  flex-direction: row;
-  text-align: center;
-  padding-bottom: 35px;
-  padding-right: 40px;
-}
 
-/* Slideshow container */
+
+
+
+/* TESTIMONIALS */
 .slideshow-container {
   position: relative;
   background: #f1f1f1f1;
@@ -318,26 +311,23 @@ button:hover {
   text-align: center;
   font-style: italic;
 }
+
 .author {
   text-align: center;
 }
 
-/* Slides */
 .mySlides {
   display: none;
   padding: 60px;
   text-align: center;
 }
 
-
-/* The dot/bullet/indicator container */
 .dot-container {
   text-align: center;
   padding: 20px;
   background: #ddd;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -349,37 +339,55 @@ button:hover {
   transition: background-color 0.6s ease;
 }
 
-/* Add a background color to the active dot/circle */
 .active {
   background-color: #717171;
 }
 
-/* Add an italic font style to all quotes */
 q {
   font-size: 20px;
   padding: 20px
 }
 
+.prev {
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  border: 2px solid grey;
+  background: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+}
 
-/* responsiveness */
+.next {
+  font-size: 15px;
+  color: grey;
+  padding: 10px;
+  border: 2px solid grey;
+  background: white;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  transition-duration: 0.4s;
+  align-self: flex-end;
+}
+
+.buttons {
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 35px;
+  padding-right: 40px;
+}
+
+
+
+/* RESPONSIVENESS */
 @media screen and (max-width: 800px) {
-  .w3-logo {
-    font-size: 30px;
-  }
-.visaburger {
-  height: 270vh;
-}
-.feecontainer {
-  height: 90vh;
-}
-  img {
-    width: 1500px;
-    height: 500px;
-    border-radius: 0;
-  }
-  q{
-    font-size: 18px;
-  }
   .menu {
     display: none;
   }
@@ -388,8 +396,42 @@ q {
     display: block;
   }
 
+  .w3-logo {
+    width: 120px;
+    height: 100px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: 350px;
+    border-radius: 0;
+    padding-top: 10px;
+  }
+
+  .visaburger,
+  .feecontainer,
+  .servicesintro {
+    height: fit-content;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
   .column {
     width: 100%;
+  }
 
+  q,
+  i {
+    font-size: 20px;
+  }
+
+
+
+  .mySlides {
+    padding: 30px;
   }
 }
