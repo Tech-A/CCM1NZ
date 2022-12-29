@@ -367,11 +367,12 @@ q {
   b,
   h1 {
     font-size: 30px;
-    padding-top: 60px;
+    padding-top: 20px;
   }
   button {
   width: 100px;
   height: 45px;
+  font-size: 7px;
   }
   .container3 {
     grid-template-columns: 1fr;
