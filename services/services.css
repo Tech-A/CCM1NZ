@@ -395,7 +395,10 @@ q,i {
   .topnav {
     display: block;
   }
-
+  .w3-title {
+    font-size: 55px;
+    align-self: center;
+  }
   .w3-logo {
     width: 120px;
     height: 100px;
