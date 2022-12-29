@@ -371,9 +371,10 @@ q {
   }
   button {
   width: 200px;
-  height: 55px;
+  height: 45px;
   font-size: 7px;
   text-align: center;
+  align-content: center;
   }
   .container3 {
     grid-template-columns: 1fr;
