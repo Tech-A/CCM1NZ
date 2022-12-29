@@ -172,7 +172,7 @@ button:hover {
 
 /* HEADER SECTION */
 .container2 {
-  max-width: 90%;
+  width: 90%;
   margin: 0 auto;
   padding-top: 50px;
   display: flex;
@@ -436,6 +436,7 @@ q {
    {
     /* grid-template-columns: 1fr; */
     height: fit-content;
+    padding: 45px;
   }
 
   .w3-title,
