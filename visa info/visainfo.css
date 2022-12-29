@@ -439,8 +439,8 @@ q {
    {
     /* grid-template-columns: 1fr; */
     height: fit-content;
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 
   .w3-title,
