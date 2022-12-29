@@ -382,8 +382,9 @@ q {
     padding: 20px;
   }
   .filler-image {
-    width: 90%;
-    height: 70%;
+    /* width: 90%;
+    height: 70%; */
+    display: none;
   }
   q{
     font-size: 18px;
