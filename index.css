@@ -361,13 +361,13 @@ q {
 @media screen and (max-width: 500px) {
 
   .hamburger {
-    height:auto;
+    height:100%;
   }
   .w3-cc,
   b,
   h1 {
-    font-size: 40px;
-    padding-top: 70px;
+    font-size: 30px;
+    padding-top: 60px;
   }
   .container3 {
     grid-template-columns: 1fr;
