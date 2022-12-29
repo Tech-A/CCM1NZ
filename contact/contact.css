@@ -171,6 +171,8 @@ h1 {
 }
 
 
+
+
 /* CONTACTS SECTION */
 .row-container {
   text-align: center;
@@ -193,7 +195,6 @@ h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
 .column {
   float: left;
   width: 33.33%;
@@ -206,6 +207,8 @@ h3 {
   display: table;
   clear: both;
 }
+
+
 
 /* FORM SECTION */
 .w3-p {
@@ -222,6 +225,9 @@ h3 {
   font-size: 40px;
 }
 
+
+
+
 /* SOCIALS SECTION */
 .socials {
   text-align: right;
@@ -237,7 +243,6 @@ h3 {
   text-decoration: none;
 
 }
-
 
 .fa-facebook:hover {
   opacity: 0.7;
@@ -310,6 +315,13 @@ i,
 .fa-facebook {
   padding: 35px;
 }
+
+
+
+
+
+
+
 /*
 
   /* form 
