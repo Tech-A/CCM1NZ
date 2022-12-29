@@ -141,7 +141,7 @@ a {
 
 /* HEADER SECTION */
 .container2 {
-  max-width: 90%;
+  width: 90%;
   margin: 0 auto;
   padding-top: 50px;
   display: flex;
@@ -384,6 +384,7 @@ q {
   .container2 {
     width: 100%;
     margin: 0 0;
+    padding: 0;
   }
   
   img {
