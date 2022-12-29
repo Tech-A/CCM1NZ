@@ -28,7 +28,7 @@ html {
 }
 
 .container {
-  max-width: 100%;
+  max-width: 90%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -440,6 +440,10 @@ q {
     text-align: left;
   }
 
+  q,
+  i {
+    font-size: 20px;
+  }
  
   .mySlides {
    padding: 30px;
