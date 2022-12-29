@@ -377,8 +377,14 @@ q {
 
 
 /* RESPONSIVENESS */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
+.menu {
+    display: none;
+  }
 
+  .topnav {
+    display: block;
+  }
   .hamburger {
     height: 100%;
   }
@@ -432,11 +438,5 @@ q {
     height: 100px;
   }
 
-  .menu {
-    display: none;
-  }
-
-  .topnav {
-    display: block;
-  }
+  
 }
