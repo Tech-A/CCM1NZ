@@ -413,6 +413,9 @@ q {
   .hero-container {
     grid-template-columns: 1fr;
     height: fit-content;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .hero-image {
