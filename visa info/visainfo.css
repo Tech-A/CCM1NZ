@@ -388,8 +388,11 @@ q {
     padding-left: 20px;
 
   }
-  q{
+  q, i{
     font-size: 18px;
+  }
+  .w3-cc2 {
+    font-size: 20px;
   }
   p {
     padding: 10px 30px;
