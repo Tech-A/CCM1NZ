@@ -378,7 +378,12 @@ q {
     grid-template-columns: 1fr;
     height: 100vh;
   }
-
+  .w3-cc,
+  b,
+  h1 {
+    font-size: 40px;
+    padding-top: 70px;
+  }
   h3 {
     padding-left: 20px;
 
