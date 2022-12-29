@@ -361,7 +361,7 @@ q {
 @media screen and (max-width: 800px) {
 
   .hamburger {
-    height:fit-content;
+    height:2500px;
   }
   .w3-cc,
   b,
@@ -375,8 +375,8 @@ q {
     padding: 20px;
   }
   .filler-image {
-    width: 420px;
-    height: 400px;
+    width: 80%;
+    height: 45%;
   }
   q{
     font-size: 18px;
