@@ -379,7 +379,7 @@ q {
   }
   .container3 {
     grid-template-columns: 1fr;
-    height: 300%;
+    height: fit-content;
     padding: 20px;
   }
   .filler-image {
