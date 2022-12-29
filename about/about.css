@@ -417,6 +417,10 @@ q {
     padding-left: 25px;
   }
 
+  .info-container {
+    padding: 45px;
+  }
+
   p {
     padding: 10px 30px;
     text-align: left;
