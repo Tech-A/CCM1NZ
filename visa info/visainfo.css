@@ -1,4 +1,7 @@
-/* body */
+/* HERE IS WHERE YOU STYLE THE WEBPAGE */
+
+
+/* BODY */
 body {
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,75 +19,18 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.title {
-  padding: 60px 20px;
-}
-
-h1 {
+/* NAV */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
   text-align: center;
-  color: rgb(48, 54, 38);
-  font-size: 65px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
+  color: white;
 }
 
-h2 {
-  text-align: center;
-  cursor: pointer;
-  color: rgb(73, 80, 62);
-  padding: 10px;
-  font-size: 40px;
-}
-
-h3 {
-  text-align: center;
-  letter-spacing: 2px;
-  color: black;
-  font-size: 30px;
-  padding-left: 80px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.w3-logo {
-  width: 150px;
-  height: 120px;
-  padding-top: 20px;
-}
-
-.visa-container {
-  padding: 80px;
-  padding-top: 30px;
-  background-color: rgb(165, 190, 165);
-}
-.w3-p {
-  font-size: 20px;
-  padding: 10px ;
-  text-align: left;
-  padding-bottom: 1px;
-}
-li {
-  font-size: 20px;
-  padding: 10px ;
-  text-align: left;
-}
-
-a {
-  text-decoration: none;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
- 
-  text-align:left;
-}
-
-.w3-h3 {
-  font-size: 30px;
-}
-.w3-h2 {
-  font-size: 40px;
-}
 nav {
   position: absolute;
   top: 0;
@@ -92,25 +38,12 @@ nav {
   right: 0;
   z-index: 99;
   padding: 16px 32px;
-
-
 }
 
-.container {
-  max-width: 1280px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.container2 {
-  max-width: 100%;
-  margin: 0 auto;
-  padding-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.w3-logo {
+  width: 150px;
+  height: 120px;
+  padding-top: 20px;
 }
 
 .menu {
@@ -135,59 +68,7 @@ nav {
   color: rgb(197, 199, 178);
 }
 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  font-size: 65px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-transform: uppercase;
-}
-
-img {
-  height: 500px;
-  width: 100%;
-  border-radius: 12px;
-  opacity: 0.9;
-}
-
-/* section 1 */
-
-.ccontainer {
-  padding: 80px;
-  padding-top: 20px;
-}
-
-.w3-p {
-  font-size: 20px;
-}
-
-
-/* section 2 */
-.apply-container {
-  padding: 80px;
-  padding-top: 30px;
-}
-
-
-/* section 3 */ 
-.living-container {
-  padding: 80px;
-  background-color: rgb(168, 191, 209);
-}
-
-
-/* menu */
+/* MENU */
 .topnav {
   display: none;
 }
@@ -273,6 +154,136 @@ button:hover {
   background: white;
   border: none;
 }
+
+
+.title {
+  padding: 60px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(48, 54, 38);
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  cursor: pointer;
+  color: rgb(73, 80, 62);
+  padding: 10px;
+  font-size: 40px;
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 30px;
+  padding-left: 80px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.visa-container {
+  padding: 80px;
+  padding-top: 30px;
+  background-color: rgb(165, 190, 165);
+}
+
+.w3-p {
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+  padding-bottom: 1px;
+}
+
+li {
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+
+  text-align: left;
+}
+
+.w3-h3 {
+  font-size: 30px;
+}
+
+.w3-h2 {
+  font-size: 40px;
+}
+
+
+
+
+.container2 {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+img {
+  height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  opacity: 0.9;
+}
+
+/* section 1 */
+
+.ccontainer {
+  padding: 80px;
+  padding-top: 20px;
+}
+
+.w3-p {
+  font-size: 20px;
+}
+
+
+/* section 2 */
+.apply-container {
+  padding: 80px;
+  padding-top: 30px;
+}
+
+
+/* section 3 */
+.living-container {
+  padding: 80px;
+  background-color: rgb(168, 191, 209);
+}
+
+
 /* Slideshow container */
 .slideshow-container {
   position: relative;
@@ -292,6 +303,7 @@ button:hover {
   text-align: center;
   font-style: italic;
 }
+
 .author {
   text-align: center;
 }
@@ -347,6 +359,7 @@ q {
   text-align: center;
   transition-duration: 0.4s;
 }
+
 .next {
   font-size: 15px;
   color: grey;
@@ -361,6 +374,7 @@ q {
   transition-duration: 0.4s;
   align-self: flex-end;
 }
+
 .buttons {
   flex-direction: row;
   text-align: center;
@@ -376,8 +390,9 @@ q {
 @media screen and (max-width: 500px) {
   .hero-container {
     grid-template-columns: 1fr;
-    
+
   }
+
   .w3-cc,
   .w3-title,
   b,
@@ -385,16 +400,21 @@ q {
     font-size: 20px;
     padding-top: 70px;
   }
+
   h3 {
     padding-left: 20px;
 
   }
-  q, i{
+
+  q,
+  i {
     font-size: 20px;
   }
+
   .w3-cc2 {
     font-size: 20px;
   }
+
   p {
     padding: 10px 30px;
     text-align: left;
