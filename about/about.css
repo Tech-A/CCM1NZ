@@ -399,7 +399,7 @@ q {
   }
   .hero-container {
     grid-template-columns: 1fr;
-    height: 250%;
+    height: fit-content;
   }
 
   .hero-image {
@@ -410,7 +410,7 @@ q {
 
   .column-right {
     padding-top: 30px;
-
+    height: fit-content;
 
   }
   h3 {
