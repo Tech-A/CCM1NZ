@@ -405,9 +405,11 @@ q {
     align-self: left;
     padding-left: 15px;
     width: 190px;
-    padding-bottom: 50px;
   }
 
+  .column-right {
+    padding-top: 20px;
+  }
   h3 {
     padding-left: 20px;
   }
