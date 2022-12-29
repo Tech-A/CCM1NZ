@@ -387,7 +387,7 @@ q {
     height: 70%; */
     display: none;
   }
-  q{
+  q, i{
     font-size: 15px;
   }
   .w3-cc2 {
