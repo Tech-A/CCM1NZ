@@ -221,7 +221,7 @@ button:hover {
   display: grid;
   grid-template-columns: 1fr 2fr;
   padding: 4rem calc((100vw - 1300px) /2);
-  height: 95vh;
+  height: 100%;
 }
 
 .hero-image {
@@ -384,13 +384,14 @@ q {
   .container2 {
     width: 100%;
     margin: 0 0;
-    padding: 0;
+
   }
   
   img {
     width:100%;
     height: 300px;
     border-radius: 0;
+    padding-top: 10px;
   }
   .w3-logo {
     width: 120px;
