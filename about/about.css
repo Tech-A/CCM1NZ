@@ -379,7 +379,7 @@ q {
 
 
 /* RESPONSIVENESS */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .container, 
   .container2 {
     width: 100%;
