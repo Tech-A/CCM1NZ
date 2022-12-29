@@ -373,6 +373,7 @@ q {
   width: 100px;
   height: 45px;
   font-size: 7px;
+  text-align: center;
   }
   .container3 {
     grid-template-columns: 1fr;
